@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Pengaturan" />
+    </group>
+
+    <item android:title="Akademik">
+        <menu>
+            <item
+                android:id="@+id/nav_krs"
+                android:icon="@drawable/ic_menu_krs"
+                android:title="KRS" />
+            <item
+                android:id="@+id/nav_jadwal_kuliah"
+                android:icon="@drawable/ic_menu_jadwal"
+                android:title="Jadwal Kuliah" />
+            <item
+                android:id="@+id/nav_nilai"
+                android:icon="@drawable/ic_menu_nilai"
+                android:title="Nilai Semester" />
+            <item
+                android:id="@+id/nav_jadwal_ujian"
+                android:icon="@drawable/ic_menu_jadwal"
+                android:title="Jadwal Ujian" />
+
+        </menu>
+    </item>
+
+</menu>
