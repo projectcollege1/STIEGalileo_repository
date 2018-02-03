@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.stiegalileo.ProfilActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                app:srcCompat="@drawable/ic_account_circle"
+                tools:layout_editor_absoluteX="127dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imageView11"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="260dp"
+                android:layout_marginTop="5dp"
+                android:text="NIM"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="158dp" />
+
+            <EditText
+                android:id="@+id/txtId"
+                android:layout_width="238dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/imageView11"
+                android:layout_marginEnd="13dp"
+                android:layout_marginRight="13dp"
+                android:ems="10"
+                android:hint="NIM"
+                android:inputType="textPersonName"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="106dp"
+                tools:layout_editor_absoluteY="150dp" />
+
+            <EditText
+                android:id="@+id/txtNama"
+                android:layout_width="238dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@+id/txtId"
+                android:layout_alignStart="@+id/txtId"
+                android:layout_below="@+id/txtId"
+                android:ems="10"
+                android:hint="Nama"
+                android:inputType="textPersonName"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="106dp"
+                tools:layout_editor_absoluteY="185dp" />
+
+            <EditText
+                android:id="@+id/txtFakultas"
+                android:layout_width="238dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@+id/txtNama"
+                android:layout_alignStart="@+id/txtNama"
+                android:layout_below="@+id/txtNama"
+                android:ems="10"
+                android:hint="Fakultas"
+                android:inputType="textPersonName"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="106dp"
+                tools:layout_editor_absoluteY="220dp" />
+
+            <EditText
+                android:id="@+id/txtProgramStudi"
+                android:layout_width="238dp"
+                android:layout_height="38dp"
+                android:layout_alignLeft="@+id/txtFakultas"
+                android:layout_alignStart="@+id/txtFakultas"
+                android:layout_below="@+id/txtFakultas"
+                android:ems="10"
+                android:hint="Program Studi"
+                android:inputType="textPersonName"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="106dp"
+                tools:layout_editor_absoluteY="255dp" />
+
+            <EditText
+                android:id="@+id/txtPeminatan"
+                android:layout_width="238dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@+id/txtProgramStudi"
+                android:layout_alignStart="@+id/txtProgramStudi"
+                android:layout_below="@+id/txtProgramStudi"
+                android:ems="10"
+                android:hint="Peminatan"
+                android:inputType="textPersonName"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="106dp"
+                tools:layout_editor_absoluteY="290dp" />
+
+            <EditText
+                android:id="@+id/txtTempatLahir"
+                android:layout_width="238dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@+id/txtPeminatan"
+                android:layout_alignStart="@+id/txtPeminatan"
+                android:layout_below="@+id/txtPeminatan"
+                android:ems="10"
+                android:hint="Tempat Lahir"
+                android:inputType="textPersonName"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="106dp"
+                tools:layout_editor_absoluteY="325dp" />
+
+            <EditText
+                android:id="@+id/txtTglLahir"
+                android:layout_width="238dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@+id/txtTempatLahir"
+                android:layout_alignStart="@+id/txtTempatLahir"
+                android:layout_below="@+id/txtTempatLahir"
+                android:ems="10"
+                android:hint="Tanggal Lahir"
+                android:inputType="date"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="106dp"
+                tools:layout_editor_absoluteY="360dp" />
+
+            <EditText
+                android:id="@+id/txtJenisKelamin"
+                android:layout_width="238dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@+id/txtTglLahir"
+                android:layout_alignStart="@+id/txtTglLahir"
+                android:layout_below="@+id/txtTglLahir"
+                android:ems="10"
+                android:hint="Jenis Kelamin"
+                android:inputType="textPersonName"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="106dp"
+                tools:layout_editor_absoluteY="395dp" />
+
+            <EditText
+                android:id="@+id/txtAgama"
+                android:layout_width="238dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@+id/txtJenisKelamin"
+                android:layout_alignStart="@+id/txtJenisKelamin"
+                android:layout_below="@+id/txtJenisKelamin"
+                android:ems="10"
+                android:hint="Agama"
+                android:inputType="textPersonName"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="106dp"
+                tools:layout_editor_absoluteY="430dp" />
+
+            <EditText
+                android:id="@+id/txtAlamat"
+                android:layout_width="238dp"
+                android:layout_height="35dp"
+                android:layout_alignLeft="@+id/txtAgama"
+                android:layout_alignStart="@+id/txtAgama"
+                android:layout_below="@+id/txtAgama"
+                android:ems="10"
+                android:hint="Alamat"
+                android:inputType="textPersonName"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="106dp"
+                tools:layout_editor_absoluteY="465dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtNama"
+                android:layout_alignBottom="@+id/txtNama"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="260dp"
+                android:text="Nama"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="192dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtNama"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="260dp"
+                android:layout_marginTop="5dp"
+                android:text="Fakultas"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="227dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignStart="@+id/textView2"
+                android:layout_below="@+id/txtProgramStudi"
+                android:layout_marginTop="5dp"
+                android:text="Peminatan"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="263dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/txtFakultas"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="Program Studi"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="263dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView8"
+                android:layout_alignStart="@+id/textView8"
+                android:layout_below="@+id/txtPeminatan"
+                android:layout_marginTop="5dp"
+                android:text="Tempat Lahir"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="332dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView6"
+                android:layout_alignRight="@+id/textView6"
+                android:layout_below="@+id/txtTempatLahir"
+                android:layout_marginTop="5dp"
+                android:text="Tanggal Lahir"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="367dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView11"
+                android:layout_alignStart="@+id/textView11"
+                android:layout_below="@+id/txtTglLahir"
+                android:layout_marginTop="5dp"
+                android:text="Jenis Kelamin"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="402dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView10"
+                android:layout_alignStart="@+id/textView10"
+                android:layout_below="@+id/txtJenisKelamin"
+                android:layout_marginTop="5dp"
+                android:text="Agama"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="438dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView12"
+                android:layout_alignStart="@+id/textView12"
+                android:layout_below="@+id/txtAgama"
+                android:layout_marginTop="5dp"
+                android:text="Alamat"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="474dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

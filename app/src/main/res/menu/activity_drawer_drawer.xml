@@ -36,8 +36,14 @@
                 android:id="@+id/nav_jadwal_ujian"
                 android:icon="@drawable/ic_menu_jadwal"
                 android:title="Jadwal Ujian" />
-
         </menu>
     </item>
-
+    <item android:title="Aksi">
+        <menu>
+            <item
+                android:id="@+id/nav_keluar"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Keluar" />
+        </menu>
+    </item>
 </menu>
